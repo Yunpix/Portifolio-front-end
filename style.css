@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'FonteDosTitulos';
+    src: url('../teste-porti/fonts/Grenze_Gotisch.ttf/static/GrenzeGotisch-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FonteDoCorpo';
+    src: url(../teste-porti/fonts/AveriaSerifLibre.ttf/AveriaSerifLibre-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-align: none;
+    text-decoration-line: none;
+    color: #B68B80;
+}
+
+a:hover {
+    color: #CFAD9D;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #864747;
+}
+
+body {
+    background-color: #FFF1D6;
+    font-family: 'FonteDoCorpo', sans-serif;
+    color: #B68B80;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'FonteDosTitulos', sans-serif;
+    color: #864747;
+    margin: 1rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #864747;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.contato {
+    margin: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.container-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: flex-start;
+    transition: 0.3s;
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid, #B68B80;
+    border-radius: 6px;
+    margin: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    background-color: #fdecc9;
+    transition: 0.3s;
+    transform: translate(-1px);
+    box-shadow: 0px 2px 3px #CFAD9D;
+}
+

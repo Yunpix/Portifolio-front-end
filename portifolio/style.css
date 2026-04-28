@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'FonteDosTitulos';
-    src: url('../teste-porti/fonts/Grenze_Gotisch.ttf/static/GrenzeGotisch-SemiBold.ttf') format('truetype');
+    src: url('../Portifolio-front-end/fonts/Grenze_Gotisch.ttf/GrenzeGotisch-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'FonteDoCorpo';
-    src: url(../teste-porti/fonts/AveriaSerifLibre.ttf/AveriaSerifLibre-Regular.ttf) format('truetype');
+    src: url(../Portifolio-front-end/fonts/AveriaSerifLibre.ttf/AveriaSerifLibre-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }

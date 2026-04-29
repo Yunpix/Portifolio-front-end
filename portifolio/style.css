@@ -31,12 +31,31 @@ a:hover {
 header {
     background-color: #864747;
 }
+header.dark-mode {
+       
+}
 
 body {
     background-color: #FFF1D6;
     font-family: 'FonteDoCorpo', sans-serif;
     color: #B68B80;
+    transition: background-color 0.5s ease, color 0.5s ease;
     
+}
+
+body.dark-mode {
+    background-color: #B68B80;
+    color: #fdecc9;
+}
+
+#theme-icon {
+    font-size: 1rem;
+    transition: transform 0.5s ease;
+    
+}
+
+.btn-tema:active #theme-icon {
+   transform: rotate(360deg);
 }
 
 h1, h2, h3 {

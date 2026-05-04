@@ -28,6 +28,13 @@ a:hover {
     transition: 0.3s;
 }
 
+.abertura{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    width: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -63,6 +70,13 @@ footer {
 }
 
 nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.nav-links {
     display: flex;
     align-items: center;
     gap: 20px;
